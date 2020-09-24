@@ -2,7 +2,7 @@
 
 _24 September 2020_
 
-#### _Given an analog clock time, returns the degrees between the minute and hour hand _
+#### _Given an analog clock time, returns the degrees between the minute and hour hand_
 
 #### By _**Vanessa Stewart and Drew Parker**_
 
@@ -13,16 +13,6 @@ _This is a project for Epicodus to practice working with Ruby using test driven 
 Time for something a little more complicated. Let's write a method that tells us, given a certain time, the distance between the minute and hour hands on an analog clock. For example, 12 o'clock would return 0º and 6 o'clock would return 180º.
 
 Always return the smaller distance and be as precise as possible. Make sure to think about the object class of the input - all form inputs from params are strings. In order to convert a String to a Float, you need to use the String#to_f() method. Try it out in IRB to get the hang of this new method.
-
-## Specifications
-| Spec     | Behavior | 
-| -------- | -------- | 
-| 1 |  | 
-| 2 |  | 
-| 3 |  |
-| 4 |  |
-| 5 |  | 
-| 6 |  | 
 
 ## Setup/Installation Requirements
 - Clone this project using the 'git clone' command in terminal/command line.
