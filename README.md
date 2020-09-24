@@ -1,8 +1,8 @@
-# _Ruby Project Creator_
+# _Clock Angle_
 
 _24 September 2020_
 
-#### _Application that creates a ruby project directory_
+#### _Given an analog clock time, returns the degrees between the minute and hour hand _
 
 #### By _**Vanessa Stewart and Drew Parker**_
 
@@ -10,41 +10,25 @@ _24 September 2020_
 
 _This is a project for Epicodus to practice working with Ruby using test driven development. The original instructions for the assignment include:_
 
-Many frameworks such as Rails allow you to create the entire structure for a project with a single line of code in the terminal. Your goal is to create a script that will do the same for a basic Ruby project.
+Time for something a little more complicated. Let's write a method that tells us, given a certain time, the distance between the minute and hour hands on an analog clock. For example, 12 o'clock would return 0º and 6 o'clock would return 180º.
 
-First, your script should automatically make all the directories you need for a Ruby project. This includes the root directory and the lib and spec directories. (Check out Ruby’s FileUtils library.)
-
-Next, your script should create a Gemfile and put it in the root directory. (Check out the File.open() method if you haven’t already.)
-
-Then your script should provide a prompt to users that allows them to enter the name of any classes they plan to include in their application. For instance, a project called shapes might have the following classes: Triangle, Square, Circle. Your script should then create .rb files and spec.rb files for each of the classes in the appropriate directories.
-
-Finally, your script should add a little basic code to these created files. For instance, triangle.rb might include:
-
-class Triangle
-End
-Meanwhile, triangle_spec.rb might include:
-
-require 'triangle'
-
-describe('Triangle') do
-end
+Always return the smaller distance and be as precise as possible. Make sure to think about the object class of the input - all form inputs from params are strings. In order to convert a String to a Float, you need to use the String#to_f() method. Try it out in IRB to get the hang of this new method.
 
 ## Specifications
 | Spec     | Behavior | 
 | -------- | -------- | 
-| 1 | Program should make all the directories needed for a Ruby Project: lib and spec | 
-| 2 | Program should add a Gemfile | 
-| 3 | Program should prompt the user to enter classes |
-| 4 | Program creates class.rb and class_spec.rb files in the lib and spec directories for each given class |
-| 5 | In the class.rb file, the program writes "class Class end" | 
-| 6 | In the class_spec.rb file, the program writes "require ('class') describe('Class') do end" | 
+| 1 |  | 
+| 2 |  | 
+| 3 |  |
+| 4 |  |
+| 5 |  | 
+| 6 |  | 
 
 ## Setup/Installation Requirements
 - Clone this project using the 'git clone' command in terminal/command line.
 - Navigate to the cloned folder and run 'bundle' in your command line.
 - Open the cloned repo in a text editor of your choice.
 - To run tests: While in the root directory of the project, run 'rspec' in your command line.
-- To run the app.rb file in the terminal, run 'ruby app.rb' in the terminal.
 
 ## Known Bugs
 _There are no known bugs at this time._
